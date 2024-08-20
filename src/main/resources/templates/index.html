@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+<div>
+    <div>
+        <h1>Welcome to shop</h1>
+    </div>
+    <div>
+        <div th:each="catalog: ${catalogs}">
+            <h1>Catalog 1</h1>
+        </div>
+        <div>
+            <h1>Catalog 2</h1>
+        </div>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Enter product name...">
+                <button>Search</button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="product-list">
+        <div class="product">
+            <div>
+                <img src="" alt="" />
+                <span>Giá: <b>5000000đ</b></span>
+            </div>
+            <a href="">Mua ngay</a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
